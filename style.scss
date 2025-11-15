@@ -160,7 +160,7 @@ main {
     #sec-2 {
         width: 100%;
         min-height: 100vh;
-        background-color: red;
+        // background-color: red;
         padding-left: 7rem;
         padding-right: 7rem;
 
@@ -175,12 +175,48 @@ main {
             #b1 {
                 width: 50%;
                 height: 100%;
-                background-color: #25d366;
+                background-color: #fff;
+                border: 1px solid pink;
+
+            #sec-2-img-1{
+              width: 100%;
+              height: 60%;
+              background: url(./images/imgi_121_BG.png);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .bike-img{
+                width: 30rem;
+            }
+    
+            }
+
+             #sec-2-img-1-des{
+              width: 100%;
+              height: 40%;
+            }
+
             }
             #b2 {
                 width: 50%;
                 height: 100%;
-                background-color: rebeccapurple;
+                background-color: #fff;
+                 border: 1px solid pink;
+                
+
+             #sec-2-img-2{
+              width: 100%;
+              height: 60%;
+              background: url(./images/imgi_121_BG.png);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .bike-img{
+                width: 30rem;
+            }
+            }
             }
         }
 
@@ -193,12 +229,41 @@ main {
             #b3 {
                 width: 50%;
                 height: 100%;
-                background-color: blue;
+                background-color: #fff;
+                 border: 1px solid pink;
+
+             #sec-2-img-3{
+              width: 100%;
+              height: 60%;
+              background: url(./images/imgi_121_BG.png);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .bike-img{
+                width: 30rem;
+            }
+            }
             }
             #b4 {
                 width: 50%;
                 height: 100%;
-                background-color: goldenrod;
+                background-color: #fff;
+                border: 1px solid pink;
+
+             #sec-2-img-4{
+              width: 100%;
+              height: 60%;
+              background: url(./images/imgi_121_BG.png);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .bike-img{
+                width: 30rem;
+                object-fit: contain;
+            }
+            }
             }
         }
     }
